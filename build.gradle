@@ -38,7 +38,7 @@ dependencies {
     testImplementation 'org.springframework.security:spring-security-test'
     testImplementation 'junit:junit:4.13.1'
 }
-정
+
 tasks.named('test') {
     useJUnitPlatform()
 }
