@@ -44,5 +44,8 @@ tasks.named('test') {
 }
 
 jar {
+    manifest {
+        attributes 'Main-Class': 'com.jojoldu.SpringbootApplication'
+    }
     enabled = false
 }
